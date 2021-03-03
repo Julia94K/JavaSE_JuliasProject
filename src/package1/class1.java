@@ -2,6 +2,10 @@ package package1;
 
 public class class1 {
     public static void main(String[] args) {
-        System.out.println("Hello Julia");
+        int i = 0;
+        while (i < 10) {
+            i++;
+            System.out.println("Hello Julia" + i);
+        }
     }
 }
