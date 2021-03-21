@@ -59,6 +59,8 @@ public class lab2_rememberEverything {
             case (7):
                 System.out.println("Sunday has number" + " " + num);
                 break;
+            default:
+                System.out.println("ERROR!");
         }
     }
 }
