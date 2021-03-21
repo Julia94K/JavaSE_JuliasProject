@@ -13,5 +13,15 @@ public class class1 {
         for (int n = 0;n<100; n++){
             System.out.println("Hey you"+" " +  n);
         }
+
+        //цикл do...while
+        int l = 15;
+        do{
+            System.out.println("Hello lovely world"+" "+l);
+            l--;
+        }
+        while (l>0);
+
+
     }
 }
