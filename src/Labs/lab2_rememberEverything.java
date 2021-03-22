@@ -2,16 +2,17 @@ package Labs;
 
 import java.util.Scanner;
 
-//почему строчка со вторником печатается дважды как 1 и 2?
+//печатается 88 раз
 public class lab2_rememberEverything {
     public static void main(String[] args) {
         int day;
-        int n = 0;
+        int n = 1;
         while (n <= 100) {
-            day = n ++ % 7;
+            day = n ++ % 8;
             switch (day) {
                 case (1):
                     System.out.println("Monday has number" + " " + day);
+                    break;
                 case (2):
                     System.out.println("Tuesday has number" + " " + day);
                     break;
@@ -25,7 +26,7 @@ public class lab2_rememberEverything {
                     System.out.println("Friday has number" + " " + day);
                     break;
                 case (6):
-                    System.out.println("Suturday has number" + " " + day);
+                    System.out.println("Saturday has number" + " " + day);
                     break;
                 case (7):
                     System.out.println("Sunday has number" + " " + day);
