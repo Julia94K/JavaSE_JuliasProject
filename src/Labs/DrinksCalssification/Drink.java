@@ -2,9 +2,6 @@ package Labs.DrinksCalssification;
 
 public class Drink {
     private String type;
-    private int price = 5;
-    private String shop = "Simple Wine";
-    private String shop2 = "Prisma";
 
     public static void main(String[] args) {
         System.out.println("ИНФОРМАЦИЯ О СОКАХ");
@@ -17,15 +14,18 @@ public class Drink {
     }
 
     public void getPrice(){
-        System.out.println("Цена: "+price);
+        int price = 5;
+        System.out.println("Цена: "+ price);
 
     }
 
     public void setShop(){
-        System.out.println("Товар доступен в магазине "+shop);
+        String shop = "Simple Wine";
+        System.out.println("Товар доступен в магазине "+ shop);
     }
 
     public void setShop2(){
-        System.out.println("Товар доступен в магазине "+shop2);
+        String shop2 = "Prisma";
+        System.out.println("Товар доступен в магазине "+ shop2);
     }
 }

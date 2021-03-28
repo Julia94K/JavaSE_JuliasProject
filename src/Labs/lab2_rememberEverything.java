@@ -6,29 +6,31 @@ import java.util.Scanner;
 public class lab2_rememberEverything {
     public static void main(String[] args) {
         int day;
-        int n = 1;
-        while (n <= 100) {
-            day = n ++ % 8;
+        int n = 0;
+
+        while (n < 100) {
+            day = n ++ % 7;
+            System.out.println(n);
             switch (day) {
-                case (1):
+                case (0):
                     System.out.println("Monday has number" + " " + day);
                     break;
-                case (2):
+                case (1):
                     System.out.println("Tuesday has number" + " " + day);
                     break;
-                case (3):
+                case (2):
                     System.out.println("Wednesday has number" + " " + day);
                     break;
-                case (4):
+                case (3):
                     System.out.println("Thursday has number" + " " + day);
                     break;
-                case (5):
+                case (4):
                     System.out.println("Friday has number" + " " + day);
                     break;
-                case (6):
+                case (5):
                     System.out.println("Saturday has number" + " " + day);
                     break;
-                case (7):
+                case (6):
                     System.out.println("Sunday has number" + " " + day);
                     break;
             }
