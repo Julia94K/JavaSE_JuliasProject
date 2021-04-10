@@ -12,7 +12,6 @@ package Labs;
 //63  64  40  21   3
 //17  31  99  41  72
 
-
 import java.util.Random;
 import java.util.Scanner;
 
