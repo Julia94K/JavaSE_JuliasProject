@@ -19,11 +19,5 @@ public class lab12_codeOfdaVinci {
             System.out.println(nextNumber);
             count++;
         }
-//        while (nextNumber <= N) {
-//            nextNumber = l + r;
-//            l = r;
-//            r = nextNumber;
-//            System.out.println(nextNumber);
-//        }
     }
 }
