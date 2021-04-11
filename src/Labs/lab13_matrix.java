@@ -25,8 +25,8 @@ public class lab13_matrix {
             for (int j = 0; j < arr.length; j++) {
                 Random ra = new Random();
                 arr[i][j] = ra.nextInt(50);
-                System.out.println("" +
-                        "" + arr[i][j] + "");
+                System.out.print(" " +
+                        " " + arr[i][j] + " ");
             }
             System.out.println();
         }
