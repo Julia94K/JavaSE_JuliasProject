@@ -22,14 +22,14 @@ public class Dragon {
         d2.fire("Беззубик");
     }
 
-
+    private String getName() {
+        return name;
+    }
     public void fire(String name){
         System.out.println("Дракон "+getName()+" ударил огнем дракона "+name);
     }
 
-    private String getName() {
-        return name;
-    }
+
 
 
     public int getTooth() {
