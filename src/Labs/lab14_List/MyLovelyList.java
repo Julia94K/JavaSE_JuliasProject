@@ -36,9 +36,6 @@ public class MyLovelyList {
     public void remove(){
         Element firstElement = head;
         head = firstElement.element;
-//        Element secondElement= firstElement.element;
-//        head = secondElement;
-        //(int)secondElement = newFirst;
         System.out.println("Мы удалили "+firstElement.value);
 
 
@@ -51,7 +48,7 @@ public class MyLovelyList {
         myList.addToList(new Element(103));//теперь 1й
         myList.showList();
         System.out.println(myList.getListSize());
-        myList.remove();
+        myList.remove();//удаляет 1й элемент
         System.out.println("Остались следующие элементы:");
         myList.showList();
 
