@@ -1,4 +1,4 @@
-package Labs.DrinksCalssification;
+package package1.DrinksCalssification;
 
 public class Juice extends Drink {
     public static void JuiceInfo() {

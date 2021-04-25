@@ -1,4 +1,4 @@
-package Labs.DrinksCalssification;
+package package1.DrinksCalssification;
 
 public class Wine extends Drink{
     private String type;

@@ -1,4 +1,4 @@
-package Labs.DrinksCalssification;
+package package1.DrinksCalssification;
 
 public class Drink {
     private String type;
