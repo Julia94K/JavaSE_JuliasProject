@@ -6,12 +6,11 @@ public class lab21_longAndShort {
 //    Нельзя использовать метод Arrays.sort и подобные ему. Нельзя сортировать массив значений."
 
 public static void main(String[] args) {
-    int [] arr =new int []{157,23,3,-99,304,13,62,145,88,-940};
-    int max = 0;
-    int min = 0;
+    int [] arr =new int []{157,23,3,-99,304,13,62,145,88,940};
+
 
     //подсчитываем максимум
-    max=arr[0];
+    int max=arr[0];
     for (int i = 0; i < arr.length-1; i++) {
         if (max<arr[i+1]){
             max = arr[i+1];
@@ -20,7 +19,7 @@ public static void main(String[] args) {
     System.out.println("Максимальное значение массива = "+max);
 
     //подсчитываем минимум
-    min = arr[0];
+    int min = arr[0];
     for (int j = 0; j < arr.length-1; j++) {
 
         if (min>arr[j+1]){
